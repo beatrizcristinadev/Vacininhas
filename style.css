@@ -49,11 +49,39 @@ body{
     font-weight: 400; 
     font-size: 1.25em;
     gap: 40em;
+    cursor: pointer;
+}
+
+.underline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #006032;
+    transition: width 0.3s,;
+}
+
+.cabecalho-menu-navegacao-item:hover .underline {
+    width: 100%;
 }
 
 .principal{
     margin-bottom: 3em;
     border-top: 0.5px solid #006032;
+}
+
+.principal-sobre{
+    margin-bottom: 3em;
+    border-top: 0.5px solid #006032;
+}
+
+.principal-vacinas{
+    margin-bottom: 3em;
+    border-top: 0.5px solid #006032;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .principal-acao{
@@ -65,9 +93,42 @@ body{
     padding:  0em 5em;
 }
 
+.principal-sobre-acao{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:  0em 5em;
+}
+
+.principal-vacinas-secao{
+    margin: 1.5em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 0.5px solid #006032;
+}
+
 .principal-acao-texto{
     display: flex;
     flex-direction: column;
+}
+
+.principal-sobre-acao-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-vacinas-secao-descricao-parágrafo{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
 }
 
 .principal-acao-texto-titulo{
@@ -75,9 +136,38 @@ body{
     font-weight: 700;
     font-size: 1.5em;
     color: #006032;
+    align-items: center;
+}
+
+.principal-sobre-acao-titulo{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: justify;
+}
+
+.principal-vacinas-secao-titulo{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: justify;
 }
 
 .principal-acao-texto-subtitulo{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.principal-vacinas-secao-descricao{
+    padding: 0;
+}
+
+.principal-sobre-acao-texto-parágrafo{
+    margin:0;
+    text-align: justify;
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -99,17 +189,33 @@ body{
 .principal-acao-imagem{
     height: 25em;
 }
+.principal-sobre-acao-texto-imagem{
+    height: 15em;
+}
 
 .secao{
+    margin: 0em 3em 3em 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
 }
+
+
 
 .secao-titulo{
     margin: 0;
     padding-top: 1em;
     border-top: 0.5px solid #006032;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    margin-bottom: 0.5em;
+}
+
+.secao-titulos{
+    margin: 0;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 1.5em;

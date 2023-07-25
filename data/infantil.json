@@ -50,7 +50,7 @@
 
     {
         "Vacina": "Rotavírus humano G1P1 (VRH)",
-        "protecaoContra":"Diarreia porRotavírus",
+        "protecaoContra":"Diarreia por Rotavírus",
         "composicao": "Vírus vivo atenuado",
         "numeroDosesEsquemaBasico": 2, 
         "numeroDosesReforco": 0, 
