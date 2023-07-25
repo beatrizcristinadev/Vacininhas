@@ -1,0 +1,207 @@
+[
+
+    {
+        "Vacina": "BCG",
+        "protecaoContra": "Formas graves de tuberculose, meníngea e miliar",
+        "composicao": "Bactéria viva atenuada",
+        "numeroDosesEsquemaBasico": 1,
+        "numeroDosesReforco": 0,
+        "idadeRecomendada": [0], 
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [],
+        "informacaoAdicional": "Devido à situação epidemiológica do país é recomendável que a vacina BCG seja administrada na maternidade. Caso não tenha sido administrada na maternidade aplicá-la na primeira visita ao serviço de saúde. Crianças que não apresentarem cicatriz vacinal após receberem a dose da vacina BCG não precisam ser revacinadas."
+    },
+
+    {
+        "Vacina": "Hepatite B recombinante",
+        "protecaoContra":"Hepatite B",
+        "composicao": "Antígeno recombinantede superfície do vírus purificado",
+        "numeroDosesEsquemaBasico": 1,
+        "numeroDosesReforco": 0, 
+        "idadeRecomendada": [0],  
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [],
+        "informacaoAdicional":" A vacina Hepatite B deve ser administrada nas primeiras 24 horas, preferencialmente, nas primeiras 12 horas de vida, ainda na maternidade. Esta dose pode ser administrada até 30 dias após o nascimento. Crianças até 6 (seis) anos 11 meses e 29 dias, sem comprovação ou com esquema vacinal incompleto, iniciar ou completar esquema com penta que está disponível na rotina dos serviços de saúde, com intervalo de 60 dias entre as doses, mínimo de 30 dias, conforme esquema detalhado no tópico da vacina penta. Crianças com 7 anos completos sem comprovação ou com esquema vacinal incompleto: completar 3 (três) doses com a vacina hepatite B com intervalo de 30 dias para a 2ª dose e de 6 meses entre a 1ª e a 3ª."
+    },
+
+    {
+        "Vacina": "Poliomielite 1,2,3 (VIP - inativada)",
+        "protecaoContra":"Poliomielite",
+        "composicao": "Vírus inativado tipos 1,2, e 3",
+        "numeroDosesEsquemaBasico": 3, 
+        "numeroDosesReforco": 2, 
+        "idadeRecomendada": [2, 4, 6], 
+        "intervaloDosesRecomendado": [2], 
+        "intervaloDosesMinimo": [1], 
+        "informacaoAdicional": null
+    },
+
+    {
+        "Vacina": "Poliomielite 1 e 3 (VOP - atenuada)",
+        "protecaoContra":"Poliomielite",
+        "composicao": "Vírus vivo atenuadotipos 1 e 3",
+        "numeroDosesEsquemaBasico": 0, 
+        "numeroDosesReforco": 2, 
+        "idadeRecomendada": [15,48],
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [6, 6],
+        "informacaoAdicional": null
+    },
+
+    {
+        "Vacina": "Rotavírus humano G1P1 (VRH)",
+        "protecaoContra":"Diarreia porRotavírus",
+        "composicao": "Vírus vivo atenuado",
+        "numeroDosesEsquemaBasico": 2, 
+        "numeroDosesReforco": 0, 
+        "idadeRecomendada": [2,4], 
+        "intervaloDosesRecomendado": [2], 
+        "intervaloDosesMinimo": [1],
+        "informacaoAdicional": "A idade mínima para a administração da primeira dose é de 1 mês e 15 dias e a idade máxima é de 3 meses e 15 dias. A idade mínima para a administração da segunda dose é de 3 meses e 15 dias e a idade máxima é de 7 meses e 29 dias. Se a criança regurgitar, cuspir ou vomitar após a vacinação, não repita a dose. Nestes casos, considere a dose válida."
+    },
+
+    {
+        "Vacina": "DTP+Hib+HB (Penta)",
+        "protecaoContra":"Difteria, Tétano, Coqueluche, Haemophilus influenzae B e Hepatite B",
+        "composicao": "Toxoides diftérico e tetânico purificados e bactéria da coquelucheinativada. Oligossacarídeos conjugados do HiB, antígeno de superfíciede HB",
+        "numeroDosesEsquemaBasico": 3, 
+        "numeroDosesReforco": 2, 
+        "idadeRecomendada": [2,4,6],  
+        "intervaloDosesRecomendado": [2], 
+        "intervaloDosesMinimo": [1],
+        "informacaoAdicional": null
+    },
+
+    {
+        "Vacina": "Pneumocócica 10-valente (PCV 10)",
+        "protecaoContra":"Pneumonias, Meningites, Otites, Sinusites pelos sorotipos que compõem a vacina",
+        "composicao": "Polissacarídeo capsularde 10 sorotipos pneumococos",
+        "numeroDosesEsquemaBasico": 2,
+        "numeroDosesReforco": 1, 
+        "idadeRecomendada": [2,4,12],
+        "intervaloDosesRecomendado": [2], 
+        "intervaloDosesMinimo": [1,2],
+        "informacaoAdicional": "Administrar 1 (uma) dose da vacina Pneumocócica 10V (conjugada), da vacina Meningocócica C (conjugada), da vacina hepatite A e da vacina tetra viral em crianças até 4 anos (4 anos 11 meses e 29 dias) de idade, que tenham perdido a oportunidade de se vacinar"
+    },
+
+    {
+        "Vacina": "Meningocócica C (Conjugada)",
+        "protecaoContra":"Meningite meningocócica tipo C",
+        "composicao": "Polissacarídeos capsulares purificadosda Neisseria meningitidis do sorogrupo C",
+        "numeroDosesEsquemaBasico": 2,
+        "numeroDosesReforco": 1,
+        "idadeRecomendada": [3,5,12], 
+        "intervaloDosesRecomendado": [2], 
+        "intervaloDosesMinimo":  [1, 2],
+        "informacaoAdicional": "Administrar 1 (uma) dose da vacina Pneumocócica 10V (conjugada), da vacina Meningocócica C (conjugada), da vacina hepatite A e da vacina tetra viral em crianças até 4 anos (4 anos 11 meses e 29 dias) de idade, que tenham perdido a oportunidade de se vacinar"
+    },
+
+    {
+        "Vacina": "Febre Amarela (Atenuada)",
+        "protecaoContra":"Febre Amarela",
+        "composicao": "Vírus vivo atenuado",
+        "numeroDosesEsquemaBasico": 1, 
+        "numeroDosesReforco": 1,
+        "idadeRecomendada": [9, 48],
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [1],
+        "informacaoAdicional": "A recomendação de vacinação contra a febre amarela é para todo Brasil, devendo seguir o esquema de acordo com as indicações da faixa etária e situação vacinal, sendo que, crianças entre 9 (nove) meses a menores de 5 (cinco) anos de idade, administrar 1 (uma) dose aos 9 (nove) meses e 1 (uma) dose de reforço aos 4 (quatro) anos. Para as crianças a partir de 5 (cinco) anos de idade, administrar 1 (uma) dose única. "
+    },
+
+    {
+        "Vacina": "Sarampo, Caxumba e Rubéola (SCR)",
+        "protecaoContra":"Sarampo, Caxumba e Rubéola",
+        "composicao": "Vírus vivos atenuados",
+        "numeroDosesEsquemaBasico": 2,
+        "numeroDosesReforco": 0,
+        "idadeRecomendada": [12], 
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [1],
+        "informacaoAdicional": "A vacinação em bloqueios está indicada em contatos de casos suspeitos de sarampo e rubéola, a partir dos 6 meses."
+    },
+
+    {
+        "Vacina": "Sarampo, Caxumba, Rubéola e Varicela",
+        "protecaoContra":"Sarampo, Caxumba Rubéola e Varicela",
+        "composicao": "Vírus vivos atenuados",
+        "numeroDosesEsquemaBasico": 2,
+        "numeroDosesReforco": 0,
+        "idadeRecomendada": [15], 
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [1], 
+        "informacaoAdicional": "Administrar 1 (uma) dose da vacina Pneumocócica 10V (conjugada), da vacina Meningocócica C (conjugada), da vacina hepatite A e da vacina tetra viral em crianças até 4 anos (4 anos 11 meses e 29 dias) de idade, que tenham perdido a oportunidade de se vacinar. A vacina tetra viral corresponde à segunda dose da tríplice viral e à primeira dose da vacina varicela. Na sua indisponibilidade, pode ser substituída pelas vacinas tríplice viral e vacina varicela (monovalente)."
+    },
+
+    {
+        "Vacina": "Hepatite A (HA)",
+        "protecaoContra": "Hepatite A",
+        "composicao": "Antígeno do vírus da hepatite A, inativada",
+        "numeroDosesEsquemaBasico": 1, 
+        "numeroDosesReforco": 0,
+        "idadeRecomendada": [15], 
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [], 
+        "informacaoAdicional": "Administrar 1 (uma) dose da vacina Pneumocócica 10V (conjugada), da vacina Meningocócica C (conjugada), da vacina hepatite A e da vacina tetra viral em crianças até 4 anos (4 anos 11 meses e 29 dias) de idade, que tenham perdido a oportunidade de se vacinar."
+    },
+
+    {
+        "Vacina": "Difteria, Tétano e Pertussis (DTP)",
+        "protecaoContra":"Difteria Tétanoe Coqueluche",
+        "composicao": "Toxoides diftérico e tetânico purificados e bactéria da coqueluche, inativada",
+        "numeroDosesEsquemaBasico": "Considerar doses anteriores com penta e DTP",
+        "numeroDosesReforco": 2,  
+        "idadeRecomendada": [15,48] ,
+        "intervaloDosesRecomendado": [9,36],
+        "intervaloDosesMinimo": [6,6],
+        "informacaoAdicional": null
+    },
+
+    {
+        "Vacina": "Difteria e Tétano (dT)",
+        "protecaoContra":"Difteria e Tétano",
+        "composicao": "Toxoides diftérico e tetânico purificados, inativada",
+        "numeroDosesEsquemaBasico": 3, 
+        "numeroDosesReforco": 120, 
+        "idadeRecomendada": [84], 
+        "intervaloDosesRecomendado": [2], 
+        "intervaloDosesMinimo": [1], 
+        "informacaoAdicional": null
+    },
+
+    {
+        "Vacina": "Papilomavírus humano (HPV)",
+        "protecaoContra":"Papilomavírus Humano 6, 11, 16 e 18 (recombinante)",
+        "composicao": "Partícula da cápsula do vírus antígeno de superfície",
+        "numeroDosesEsquemaBasico": 2, 
+        "numeroDosesReforco": 0, 
+        "idadeRecomendada": [108,120,132,144,156,168],
+        "intervaloDosesRecomendado": [6], 
+        "intervaloDosesMinimo": [],
+        "informacaoAdicional": null
+    },
+
+    {
+        "Vacina": "Pneumocócica 23-valente (PPV 23)",
+        "protecaoContra":"Meningite, Sepse Pneumonias, Sinusite, Otite e Bronquite",
+        "composicao": "Polissacarídeo capsularde 23 sorotipos pneumococos",
+        "numeroDosesEsquemaBasico": 1,
+        "numeroDosesReforco": 0, 
+        "idadeRecomendada": [60],
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [],
+        "informacaoAdicional": "Esta vacina está indicada para população indígena a partir dos 5 (cinco) anos de idade."
+    },
+
+    {
+        "Vacina": "Varicela",
+        "protecaoContra":"Varicela",
+        "composicao": "Vírus vivo atenuado",
+        "numeroDosesEsquemaBasico": 1,
+        "numeroDosesReforco": 0, 
+        "idadeRecomendada": [48],
+        "intervaloDosesRecomendado": [],
+        "intervaloDosesMinimo": [1],
+        "informacaoAdicional": "A vacina varicela pode ser administrada até 6 anos, 11 meses e 29 dias. Está indicada para toda população indígena a partir dos 7 (sete) anos de idade, não vacinada contra varicela."
+    }
+
+]
