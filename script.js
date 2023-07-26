@@ -5,11 +5,12 @@ function calcularIdade(e) {
   
     let anos = dataAtual.getUTCFullYear() - dataNascimento.getUTCFullYear();
     let meses = dataAtual.getUTCMonth() - dataNascimento.getUTCMonth();
-    if (meses < 0 || (meses === 0 && dataAtual.getUTCDate() < dataNascimento.getUTCDate())) {
-    anos--;
-    meses += 12;
-  }
-  
+    // if (meses < 0 || (meses === 0 && dataAtual.getUTCDate() < dataNascimento.getUTCDate())) {
+    // anos--;
+    // meses += 12; 
+  // }
+   if (anos >= 1) meses = meses + anos * 12
+
   let dias = dataAtual.getUTCDate() - dataNascimento.getUTCDate();
   if (dias < 0) {
     meses--;
@@ -84,12 +85,3 @@ function  criarCheckbox (dose){
     })
   }
 
-// const cardsVacina = document.getElementById('tabela');
-// cardsVacina.style.backgroundColor = '#d9d9d9';
-// cardsVacina.style.color = '#000000';
-// cardsVacina.elemento.style.fontSize = '20px';
-// cardsVacina.style.fontFamily = 'Chivo, sans-serif';
-// cardsVacina.style.borderColor = '#006032'
-// cardsVacina.style.border = '2px solid #006032'; 
-// cardsVacina.style.borderRadius = '5px';
-// chackbox?

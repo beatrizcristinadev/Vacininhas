@@ -107,6 +107,24 @@ body{
     padding:  0em 5em;
 }
 
+.principal-referencias{
+    margin-bottom: 3em;
+    border-top: 0.5px solid #006032;
+}
+
+.principal-referencias-div-botao{
+    background-color: #7ed957;
+    width: 8em;
+    height: 2em;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #006032;
+}
+
 .principal-sobre-acao{
     background-color: #d9d9d9;
     display: flex;
@@ -132,7 +150,7 @@ body{
     flex-direction: column;
 }
 
-..principal-duvidas{
+.principal-duvidas{
     display: flex;
     flex-direction: column;
 }
@@ -169,7 +187,6 @@ body{
 }
 
 .principal-carteirinha-formulario-cadastro-digitar{
-    padding: ;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 1.2em;
@@ -204,6 +221,9 @@ body{
 }
 
 .principal-carteirinha-resultado{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -397,5 +417,5 @@ body{
     flex-wrap: wrap;
 }
 
-font-family: 'Chivo', sans-serif;
-font-family: 'DM Sans', sans-serif;
+/* font-family: 'Chivo', sans-serif;
+font-family: 'DM Sans', sans-serif; */

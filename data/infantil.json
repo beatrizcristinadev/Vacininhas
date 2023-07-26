@@ -161,7 +161,7 @@
         "protecaoContra":"Difteria e Tétano",
         "composicao": "Toxoides diftérico e tetânico purificados, inativada",
         "numeroDosesEsquemaBasico": 3, 
-        "numeroDosesReforco": 120, 
+        "numeroDosesReforco": 2, 
         "idadeRecomendada": [84], 
         "intervaloDosesRecomendado": [2], 
         "intervaloDosesMinimo": [1], 
