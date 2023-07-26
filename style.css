@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lunasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=DM+Sans&display=swap');
+font-family: 'Chivo', sans-serif;
 font-family: 'DM Sans', sans-serif;
-font-family: 'Lunasima', sans-serif;
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body {
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
     font-size: 1rem;
 }
 
@@ -20,19 +28,115 @@ body {
     align-items: center;
 }
 
-.cabecalho{
-    gap: 2em;
+.cabecalho-imagem-logo{
+    width: 18em;
 }
 
-.cabecalho-menu-item {
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cabecalho-menu-navegacao{
+    margin: 0.5em;
+}
+
+.cabecalho-menu-navegacao-item{
+    padding: 1em;
     font-family: 'DM Sans', sans-serif;
     color: #006032;
-    font-weight: 700; 
+    font-weight: 400; 
     font-size: 1.25em;
-    justify-content: space-around;
-    gap: 5em;
+    gap: 40em;
 }
 
-.a {
+.principal{
+    margin-bottom: 3em;
+    border-top: 0.5px solid #006032;
+}
+
+.principal-acao{
+    background-color: #c1ff72;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:  0em 5em;
+}
+
+.principal-acao-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-acao-texto-titulo{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
     color: #006032;
-} */
+}
+
+.principal-acao-texto-subtitulo{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.principal-acao-texto-botao{
+    background-color: #7ed957;
+    width: 8em;
+    height: 2em;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #006032;
+}
+
+.principal-acao-imagem{
+    height: 25em;
+}
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-titulo{
+    margin: 0;
+    padding-top: 1em;
+    border-top: 0.5px solid #006032;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    margin-bottom: 0.5em;
+}
+
+.secao-paragrafo{
+    font-family: 'Chivo', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.rodape{
+    background-color: #7ed957;
+    padding: 0.6em;
+    border-top: 0.5px solid #006032;
+    align-items: center;
+}
+
+.rodape-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0.2em;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
