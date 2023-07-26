@@ -38,6 +38,10 @@
     <main class="principal-carteirinha">
         <h1 class="principal-carteirinha-titulo">Carteirinha Web</h1>
         <form class="principal-carteirinha-formulario"  id="form">
+            <div class="principal-carteirinha-formulario-imagem">
+                <img class="principal-carteirinha-formulario-imagem-carteira"src="../img/carteira.png" alt="">
+            </div>
+
             <div class="principal-carteirinha-formulario-cadastro">
                 <div class="principal-carteirinha-formulario-cadastro-digitar">
                     <label for="nome">Nome:</label>
@@ -46,21 +50,17 @@
 
                 <div class="principal-carteirinha-formulario-cadastro-digitar">
                     <label for="dataNascimento">Data de Nascimento:</label>
-                    <input type="date" id="dataNascimento" required>
+                    <input class="principal-carteirinha-formulario-cadastro-digitar-input" type="date" id="dataNascimento" required>
                 </div>
 
                  
             
                 <button class="principal-carteirinha-formulario-cadastro-botao" type="submit">Cadastar</button>
             </div>
-            
-            <div class="principal-carteirinha-formulario-imagem">
-                <img class="principal-carteirinha-formulario-imagem-carteira"src="../img/carteira.png" alt="">
-            </div>
         </form>
         <div class="principal-carteirinha-resultado" id="resultado"></div>
 
-        <section class="carteirinha" id="tabela">
+        <section class="carteirinhaContainer" id="tabela">
             
         </section>
         

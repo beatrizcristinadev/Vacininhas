@@ -35,14 +35,14 @@ function calcularIdade(e) {
     // vacinasrContainer.innerHTML = vacinasHtml
   }
 
-function criarCheckbox(dose){
+function criarCheckbox (dose){
     let dosesHtml= []
     if (dose== 0){
-        return `<p>não recomendada dose de reforço</p>`
+        return `<p class="card-p">não tem dose de reforço</p>`
     } else {
         for(let i = 1; i <= dose; i++){
             dosesHtml.push(`<label>
-            <input type="checkbox">
+            <input class="card-check" type="checkbox">
             ${i}º dose
             </label>`)
         }
@@ -54,13 +54,13 @@ function criarCheckbox(dose){
 // getVacinas()
 
   function converterHtml (vacina, doses) {
-    return`<div>
-      <h3>${vacina.Vacina}</h3>
-      <h4>Doses</h5>
-      ${criarCheckbox(doses)}
-      <h4>Reforço</h5>
-      ${criarCheckbox(vacina.numeroDosesReforco)}
-      <p>${vacina.informacaoAdicional ? `${vacina.informacaoAdicional}` : ""}</p>
+    return`<div class="card">
+      <h3 class="card-h3">${vacina.Vacina}</h3>
+      <h4 class="card-h4">Doses</h4>
+      <div class="div-check">${criarCheckbox(doses)}</div>
+      <h4 class="card-h4">Reforço</h4>
+      <div class="div-check">${criarCheckbox(vacina.numeroDosesReforco)}</div>
+      <p class="card-p">${vacina.informacaoAdicional ? `${vacina.informacaoAdicional}` : ""}</p>
     </div>`
   }
 
@@ -83,3 +83,13 @@ function criarCheckbox(dose){
           vacinasContainer.innerHTML = vacinasHtml.join("");
     })
   }
+
+// const cardsVacina = document.getElementById('tabela');
+// cardsVacina.style.backgroundColor = '#d9d9d9';
+// cardsVacina.style.color = '#000000';
+// cardsVacina.elemento.style.fontSize = '20px';
+// cardsVacina.style.fontFamily = 'Chivo, sans-serif';
+// cardsVacina.style.borderColor = '#006032'
+// cardsVacina.style.border = '2px solid #006032'; 
+// cardsVacina.style.borderRadius = '5px';
+// chackbox?
