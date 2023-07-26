@@ -9,8 +9,6 @@ function calcularIdade(e) {
     // anos--;
     // meses += 12; 
   // }
-   if (anos >= 1) meses = meses + anos * 12
-
   let dias = dataAtual.getUTCDate() - dataNascimento.getUTCDate();
   if (dias < 0) {
     meses--;
@@ -18,6 +16,7 @@ function calcularIdade(e) {
   }
   
   document.getElementById("resultado").innerHTML = `Idade: ${anos} anos, ${meses} meses , ${dias} dias`;
+  if (anos >= 1) meses = meses + anos * 12
   exibirVacinasNecessarias(meses);
 }
 
@@ -36,14 +35,14 @@ function calcularIdade(e) {
     // vacinasrContainer.innerHTML = vacinasHtml
   }
 
-function  criarCheckbox (dose){
+function  criarCheckbox (dose, vacina){
     let dosesHtml= []
     if (dose== 0){
         return `<p class="card-p">não tem dose de reforço</p>`
     } else {
         for(let i = 1; i <= dose; i++){
             dosesHtml.push(`<label>
-            <input class="card-check" type="checkbox">
+            <input onclick="funcaoTeste(vacina)" class="card-check" type="checkbox">
             ${i}º dose
             </label>`)
         }
@@ -52,15 +51,28 @@ function  criarCheckbox (dose){
 
 }
 
+function funcaoTeste(vacina){
+  let numeroDoses = vacina.idadeRecomendada.length
+  let dosesMarcadas = 0 
+  for(var i in document.dosesVacinas.childNodes){
+        if(document.dosesVacinas.childNodes[i].type == "checkbox" && document.dosesVacinas.childNodes[i].checked == true) dosesMarcadas ++;
+        if (i == lastElementChild && numeroDoses == dosesMarcadas)
+        alert("oie")
+  } 
+}
+
+
+
+
 // getVacinas()
 
   function converterHtml (vacina, doses) {
     return`<div class="card">
       <h3 class="card-h3">${vacina.Vacina}</h3>
       <h4 class="card-h4">Doses</h4>
-      <div class="div-check">${criarCheckbox(doses)}</div>
+      <form name="dosesVacinas" class="div-check">${criarCheckbox(doses,vacina)}</form>
       <h4 class="card-h4">Reforço</h4>
-      <div class="div-check">${criarCheckbox(vacina.numeroDosesReforco)}</div>
+      <form name="dosesReforco" class="div-check">${criarCheckbox(vacina.numeroDosesReforco, vacina)}</form>
       <p class="card-p">${vacina.informacaoAdicional ? `${vacina.informacaoAdicional}` : ""}</p>
     </div>`
   }

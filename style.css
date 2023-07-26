@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=DM+Sans&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Chivo', sans-serif;
@@ -8,74 +8,74 @@
     text-decoration: none;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-size: 1rem;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     margin: 0 3em;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecalho-imagem-logo{
+.cabecalho-imagem-logo {
     width: 18em;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.cabecalho-menu-navegacao{
+.cabecalho-menu-navegacao {
     margin: 0.5em;
 }
 
-.cabecalho-menu-navegacao-item{
+.cabecalho-menu-navegacao-item {
     padding: 1em;
     font-family: 'DM Sans', sans-serif;
     color: #006032;
-    font-weight: 400; 
+    font-weight: 400;
     font-size: 1.25em;
     gap: 40em;
     cursor: pointer;
 }
 
-.underline{
+.underline {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
     height: 2px;
     background-color: #006032;
-    transition: width 0.3s,;
+    transition: width 0.3s, ;
 }
 
 .cabecalho-menu-navegacao-item:hover .underline {
     width: 100%;
 }
 
-.principal{
+.principal {
     margin-bottom: 3em;
     border-top: 0.5px solid #006032;
 }
 
-.principal-sobre{
+.principal-sobre {
     margin-bottom: 3em;
     border-top: 0.5px solid #006032;
 }
 
-.principal-vacinas{
+.principal-vacinas {
     margin-bottom: 3em;
     border-top: 0.5px solid #006032;
     display: flex;
@@ -83,7 +83,7 @@ body{
     flex-wrap: wrap;
 }
 
-.principal-duvidas{
+.principal-duvidas {
     margin-bottom: 3em;
     display: flex;
     flex-direction: row;
@@ -91,28 +91,28 @@ body{
     align-items: center;
 }
 
-.principal-carteirinha{
+.principal-carteirinha {
     margin-bottom: 3em;
     border-top: 0.5px solid #006032;
     display: flex;
     flex-direction: column;
 }
 
-.principal-acao{
+.principal-acao {
     background-color: #c1ff72;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding:  0em 5em;
+    padding: 0em 5em;
 }
 
-.principal-referencias{
+.principal-referencias {
     margin-bottom: 3em;
     border-top: 0.5px solid #006032;
 }
 
-.principal-referencias-div-botao{
+.principal-referencias-div-botao {
     background-color: #7ed957;
     width: 8em;
     height: 2em;
@@ -125,16 +125,16 @@ body{
     color: #006032;
 }
 
-.principal-sobre-acao{
+.principal-sobre-acao {
     background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:  0em 5em;
+    padding: 0em 5em;
 }
 
-.principal-vacinas-secao{
+.principal-vacinas-secao {
     margin: 1.5em;
     padding: 0;
     display: flex;
@@ -145,34 +145,35 @@ body{
     border: 0.5px solid #006032;
 }
 
-.principal-acao-texto{
+.principal-acao-texto {
     display: flex;
     flex-direction: column;
 }
 
-.principal-duvidas{
+.principal-duvidas {
     display: flex;
     flex-direction: column;
 }
-.principal-duvidas-imagem{
+
+.principal-duvidas-imagem {
     width: 10em;
 }
 
-.principal-sobre-acao-texto{
+.principal-sobre-acao-texto {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.principal-vacinas-secao-descricao-parágrafo{
+.principal-vacinas-secao-descricao-parágrafo {
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
     font-size: 1em;
 }
 
-.principal-carteirinha-formulario{
+.principal-carteirinha-formulario {
     font-family: 'Chivo', sans-serif;
     font-weight: 700;
     font-size: 1em;
@@ -182,22 +183,22 @@ body{
     align-items: center;
 }
 
-.principal-carteirinha-formulario-cadastro{
+.principal-carteirinha-formulario-cadastro {
     gap: 1em;
 }
 
-.principal-carteirinha-formulario-cadastro-digitar{
+.principal-carteirinha-formulario-cadastro-digitar {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 1.2em;
     color: #006032;
 }
 
-.principal-carteirinha-formulario-cadastro-digitar-input{
-    border : 2px solid #006032;
+.principal-carteirinha-formulario-cadastro-digitar-input {
+    border: 2px solid #006032;
 }
 
-.principal-carteirinha-formulario-cadastro-botao{
+.principal-carteirinha-formulario-cadastro-botao {
     background-color: #7ed957;
     width: 6em;
     height: 2em;
@@ -210,17 +211,17 @@ body{
     color: #006032;
 }
 
-.principal-carteirinha-formulario-imagem-carteira{
+.principal-carteirinha-formulario-imagem-carteira {
     width: 15em;
     padding: 0em 2em 0em 0em;
 }
 
-.principal-carteirinha-formulario-cadastro{
+.principal-carteirinha-formulario-cadastro {
     display: flex;
     flex-direction: column;
 }
 
-.principal-carteirinha-resultado{
+.principal-carteirinha-resultado {
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -230,7 +231,7 @@ body{
     color: #006032;
 }
 
-.principal-acao-texto-titulo{
+.principal-acao-texto-titulo {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 1.5em;
@@ -238,7 +239,7 @@ body{
     align-items: center;
 }
 
-.principal-sobre-acao-titulo{
+.principal-sobre-acao-titulo {
     margin: 1em 0em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
@@ -247,7 +248,7 @@ body{
     text-align: justify;
 }
 
-.principal-vacinas-secao-titulo{
+.principal-vacinas-secao-titulo {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 1.5em;
@@ -255,7 +256,7 @@ body{
     text-align: justify;
 }
 
-.principal-carteirinha-titulo{
+.principal-carteirinha-titulo {
     margin-top: 1em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
@@ -264,7 +265,7 @@ body{
     text-align: center;
 }
 
-.principal-carteirinha-resultado{
+.principal-carteirinha-resultado {
     display: flex;
     justify-content: center;
     margin-top: 1em;
@@ -275,17 +276,17 @@ body{
     text-align: center;
 }
 
-.principal-acao-texto-subtitulo{
+.principal-acao-texto-subtitulo {
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
     font-size: 1em;
 }
 
-.principal-vacinas-secao-descricao{
+.principal-vacinas-secao-descricao {
     padding: 0;
 }
 
-.principal-sobre-acao-texto-parágrafo{
+.principal-sobre-acao-texto-parágrafo {
     margin: 0.5em;
     text-align: justify;
     font-family: 'Chivo', sans-serif;
@@ -293,7 +294,7 @@ body{
     font-size: 1em;
 }
 
-.principal-acao-texto-botao{
+.principal-acao-texto-botao {
     background-color: #7ed957;
     width: 8em;
     height: 2em;
@@ -306,16 +307,16 @@ body{
     color: #006032;
 }
 
-.principal-acao-imagem{
+.principal-acao-imagem {
     height: 25em;
 }
 
-.principal-sobre-acao-texto-imagem{
+.principal-sobre-acao-texto-imagem {
     margin-top: 2em;
     height: 10em;
 }
 
-.principal-carteirinha-resultado{
+.principal-carteirinha-resultado {
     margin: 0;
     padding-top: 1em;
     border-top: 0.5px solid #006032;
@@ -325,7 +326,7 @@ body{
     color: #006032;
 }
 
-.secao{
+.secao {
     margin: 0em 3em 3em 3em;
     display: flex;
     flex-direction: column;
@@ -335,7 +336,7 @@ body{
 
 
 
-.secao-titulo{
+.secao-titulo {
     margin: 0;
     padding-top: 1em;
     border-top: 0.5px solid #006032;
@@ -346,7 +347,7 @@ body{
     margin-bottom: 0.5em;
 }
 
-.secao-titulos{
+.secao-titulos {
     margin: 0;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
@@ -355,20 +356,20 @@ body{
     margin-bottom: 0.5em;
 }
 
-.secao-paragrafo{
+.secao-paragrafo {
     font-family: 'Chivo', sans-serif;
     font-size: 1em;
     font-weight: 500;
 }
 
-.rodape{
+.rodape {
     background-color: #006032;
     padding: 0.6em;
     border-top: 0.5px solid #006032;
     align-items: center;
 }
 
-.rodape-texto{
+.rodape-texto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -379,15 +380,15 @@ body{
     font-weight: 400;
 }
 
-.carteirinhaContainer{
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+.carteirinhaContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     grid-gap: 2rem;
     width: 90%;
     margin: 0 auto;
 }
 
-.card{
+.card {
     background-color: #d9d9d9;
     color: #006032;
     border: 0.5px solid #006032;
@@ -399,18 +400,50 @@ body{
     text-align: justify;
 }
 
-.card-h3{
+.card-h3 {
     font-family: 'DM Sans', sans-serif;
 }
 
-.card-h{
+.card-h {
     font-family: 'Chivo', sans-serif;
 }
 
-.card-check{
-    color: #c1ff72;
+.card-check {
+    background: #7ed957;
+    color: white;
 }
-.div-check{
+
+.card-check{
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background: lightgray;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #7ed957;
+    color: #7ed957;
+}
+
+input[type="checkbox"]:after {
+    content: ' ';
+    position: relative;
+    left: 40%;
+    top: 20%;
+    width: 15%;
+    height: 40%;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(50deg);
+    display: none;
+}
+
+input[type="checkbox"]:checked:after {
+    display: block;
+}
+
+.div-check {
     display: flex;
     justify-content: center;
     gap: 1em;
