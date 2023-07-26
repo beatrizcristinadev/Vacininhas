@@ -273,6 +273,7 @@ body{
 .principal-acao-imagem{
     height: 25em;
 }
+
 .principal-sobre-acao-texto-imagem{
     height: 15em;
 }
@@ -314,7 +315,7 @@ body{
 }
 
 .rodape{
-    background-color: #7ed957;
+    background-color: #006032;
     padding: 0.6em;
     border-top: 0.5px solid #006032;
     align-items: center;
