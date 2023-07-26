@@ -215,6 +215,7 @@ body{
 }
 
 .principal-sobre-acao-titulo{
+    margin: 1em 0em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 1.5em;
@@ -250,7 +251,7 @@ body{
 }
 
 .principal-sobre-acao-texto-parágrafo{
-    margin:0;
+    margin: 0.5em;
     text-align: justify;
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
@@ -275,7 +276,8 @@ body{
 }
 
 .principal-sobre-acao-texto-imagem{
-    height: 15em;
+    margin-top: 2em;
+    height: 10em;
 }
 
 .secao{
