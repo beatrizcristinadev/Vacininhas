@@ -1,7 +1,20 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lunasima&display=swap');
+font-family: 'DM Sans', sans-serif;
+font-family: 'Lunasima', sans-serif;
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.cabecalho{
+    
 }
 
 .cabecalho-imagens{
@@ -14,16 +27,22 @@
 .cabecalho-imagens-logo{
     width: 20em;
     height: 7em;
-    
 }
 
-.cabecalho-navegação{
-    font-family: ;
+.cabecalho.menu{
+    display: flex;
+    gap: 2em;
+}
+
+.cabecalho-menu-item {
+    font-family: 'DM Sans', sans-serif;
+    color: #006032;
     font-weight: 700; 
     font-size: 1.25em;
-    list-style: none;
-    color:#00bf63;
-    display: flex;
     justify-content: space-around;
     gap: 5em;
 }
+
+.a {
+    color: #006032;
+} */
