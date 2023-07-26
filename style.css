@@ -244,6 +244,17 @@ body{
     text-align: center;
 }
 
+.principal-carteirinha-resultado{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: center;
+}
+
 .principal-acao-texto-subtitulo{
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
@@ -282,6 +293,16 @@ body{
 .principal-sobre-acao-texto-imagem{
     margin-top: 2em;
     height: 10em;
+}
+
+.principal-carteirinha-resultado{
+    margin: 0;
+    padding-top: 1em;
+    border-top: 0.5px solid #006032;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
 }
 
 .secao{

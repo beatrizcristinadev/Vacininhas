@@ -35,7 +35,7 @@ function calcularIdade(e) {
     // vacinasrContainer.innerHTML = vacinasHtml
   }
 
-function criarCheckbox (dose){
+function  criarCheckbox (dose){
     let dosesHtml= []
     if (dose== 0){
         return `<p class="card-p">não tem dose de reforço</p>`
