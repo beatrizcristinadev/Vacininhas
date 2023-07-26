@@ -86,10 +86,17 @@ body{
 
 .principal-duvidas{
     margin-bottom: 3em;
-    border-top: 0.5px solid #006032;
+    
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
+}
+
+.principal-carteirinha{
+    margin-bottom: 3em;
+    border-top: 0.5px solid #006032;
+    display: flex;
+    flex-direction: column;
 }
 
 .principal-acao{
@@ -135,12 +142,68 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 
 .principal-vacinas-secao-descricao-parágrafo{
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
     font-size: 1em;
+}
+
+.principal-carteirinha-formulario{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-carteirinha-formulario-cadastro{
+    gap: 1em;
+}
+
+.principal-carteirinha-formulario-cadastro-digitar{
+    padding: ;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: #006032;
+}
+
+.principal-carteirinha-formulario-cadastro-digitar-input{
+    border : 0.8px solid #006032;
+}
+
+.principal-carteirinha-formulario-cadastro-botao{
+    background-color: #7ed957;
+    width: 6em;
+    height: 2em;
+    border : 0.8px solid #006032;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #006032;
+}
+
+.principal-carteirinha-formulario-imagem-carteira{
+    width: 15em;
+    padding: 0em 0em 0em 2em;
+}
+
+.principal-carteirinha-formulario-cadastro{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-carteirinha-resultado{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #006032;
 }
 
 .principal-acao-texto-titulo{
@@ -165,6 +228,15 @@ body{
     font-size: 1.5em;
     color: #006032;
     text-align: justify;
+}
+
+.principal-carteirinha-titulo{
+    margin-top: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: center;
 }
 
 .principal-acao-texto-subtitulo{

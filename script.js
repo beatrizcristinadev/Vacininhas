@@ -56,18 +56,10 @@ function criarCheckbox(dose){
   function converterHtml (vacina, doses) {
     return`<div>
       <h3>${vacina.Vacina}</h3>
-      <p>${vacina.protecaoContra}</p>
-      <p>${vacina.composicao}</p>
-      <h5>Doses</h5>
+      <h4>Doses</h5>
       ${criarCheckbox(doses)}
-      <h5>Reforço</h5>
+      <h4>Reforço</h5>
       ${criarCheckbox(vacina.numeroDosesReforco)}
-      <p>${vacina.idadeRecomendada == 0 ? `aplicada ao nascer`: `A idade recomendada é: ${vacina.idadeRecomendada.join(", ")} meses`}</p>
-
-      <p>intervalo mínimo: ${vacina.intervaloDosesRecomendado.length == 0 ? `não necessário`: `${vacina.intervaloDosesMinimo.join(", ")} meses`}</p>
-
-      <p>intervalo recomendado: ${vacina.intervaloDosesRecomendado.length == 0 ? `não necessário`: `${vacina.intervaloDosesRecomendado.join(", ")} meses`}</p>
-
       <p>${vacina.informacaoAdicional ? `${vacina.informacaoAdicional}` : ""}</p>
     </div>`
   }
