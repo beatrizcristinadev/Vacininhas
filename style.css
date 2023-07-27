@@ -460,6 +460,9 @@ body {
     padding: 0.6em;
     border-top: 0.5px solid #006032;
     align-items: center;
+    display:flex;
+    flex-direction: column;
+    
 }
 
 .rodape-texto {
@@ -467,11 +470,33 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 0.2em;
     font-family: 'DM Sans', sans-serif;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 700;
 }
+.rodape-texto2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 0.5em 0em;
+}
+
+.rodape-imagem{
+    width: 10em;
+}
+
+.rodape-links{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 .carteirinhaContainer {
     display: grid;
