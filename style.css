@@ -14,6 +14,7 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit
 }
 
 body {
@@ -46,7 +47,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     color: #006032;
     font-weight: 400;
-    font-size: 1.25em;
+    font-size: 1.2em;
     gap: 40em;
     cursor: pointer;
 }
@@ -61,14 +62,99 @@ body {
     transition: width 0.3s, ;
 }
 
-.cabecalho-menu-navegacao-item:hover .underline {
-    width: 100%;
+.cabecalho-menu-navegacao-item:hover {
+    color: #7ed957;
 }
 
 .principal {
     border-top: 0.5px solid #006032;
 }
 
+.principal-acao {
+    background-color: #c1ff72;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0em 5em;
+}
+
+.principal-acao-texto {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.principal-acao-texto-titulo {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    align-items: center;
+}
+.principal-acao-texto-subtitulo {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 0m 0m 1em 1em;
+}
+
+.principal-acao-texto-botao {
+    background-color: #7ed957;
+    width: 8em;
+    height: 2em;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #006032;
+    
+}
+
+.principal-acao-texto-botao:hover {
+    background-color: #006032;
+    color: black;
+}
+
+.principal-acao-imagem {
+    height: 31em;
+}
+
+.secao {
+    margin: 0em 3em 3em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.secao-titulo {
+    margin: 0;
+    padding-top: 1em;
+    border-top: 0.5px solid #006032;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    margin-bottom: 0.5em;
+}
+
+.secao-titulos {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    margin-bottom: 0.5em;
+}
+
+.secao-paragrafo {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
 .principal-sobre {
     border-top: 0.5px solid #006032;
 }
@@ -86,23 +172,22 @@ body {
     flex-direction: column;
 }
 
-.principal-acao {
-    background-color: #c1ff72;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0em 5em;
-}
+
 
 .principal-referencias {
-    margin-bottom: 3em;
+    padding: 2em;
     border-top: 0.5px solid #006032;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.principal-referencias-div-botao {
+.principal-referencias-botao {
     background-color: #7ed957;
-    width: 8em;
+    width: 12em;
     height: 2em;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -113,6 +198,19 @@ body {
     color: #006032;
 }
 
+.principal-referencias-botao:hover {
+    background-color: #006032;
+    color: black;
+}
+
+.principal-blog-imagem{
+    display: block;
+    margin: 0 auto;
+}
+
+.principal-blog-imagem{
+    width: 13em;
+}
 .principal-sobre-acao {
     background-color: #d9d9d9;
     display: flex;
@@ -133,10 +231,7 @@ body {
     border: 0.5px solid #006032;
 }
 
-.principal-acao-texto {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .principal-duvidas-imagem {
     width: 10em;
@@ -194,6 +289,11 @@ body {
     color: #006032;
 }
 
+.principal-carteirinha-formulario-cadastro-botao:hover{
+    background-color: #006032;
+    color: black;
+}
+
 .principal-carteirinha-formulario-imagem-carteira {
     width: 15em;
     padding: 0em 2em 0em 0em;
@@ -212,14 +312,6 @@ body {
     font-size: 1em;
     color: #006032;
     margin-bottom: 1em;
-}
-
-.principal-acao-texto-titulo {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #006032;
-    align-items: center;
 }
 
 .principal-sobre-acao-titulo {
@@ -270,10 +362,6 @@ body {
 
 }
 
-.principal-duvidas-imagem{
-    
-}
-
 .principal-duvidas-imagem-procura{
     width: 30em;
 }
@@ -297,11 +385,6 @@ body {
     font-family: 'Chivo', sans-serif;
     font-size: 1em;
 }
-.principal-acao-texto-subtitulo {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-}
 
 .principal-vacinas-secao-descricao {
     padding: 0;
@@ -313,23 +396,6 @@ body {
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
     font-size: 1em;
-}
-
-.principal-acao-texto-botao {
-    background-color: #7ed957;
-    width: 8em;
-    height: 2em;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0.2em;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 400;
-    font-size: 1.2em;
-    color: #006032;
-}
-
-.principal-acao-imagem {
-    height: 25em;
 }
 
 .principal-sobre-acao-texto-imagem {
@@ -346,40 +412,43 @@ body {
     color: #006032;
 }
 
-.secao {
-    margin: 0em 3em 3em 3em;
+.principal-blog{
+    border-top: 0.5px solid #006032;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-blog-titulo{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: justify;
+    padding-top: 1em;
+}
+
+.principal-blog-contato{
+    font-family: 'Chivo', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: justify;
+    gap: 0.5em;
 }
 
-
-
-.secao-titulo {
-    margin: 0;
-    padding-top: 1em;
-    border-top: 0.5px solid #006032;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #006032;
-    margin-bottom: 0.5em;
+.principal-blog-contato-nome{
+    width: 40em;
+    height: 3em;
 }
 
-.secao-titulos {
-    margin: 0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #006032;
-    margin-bottom: 0.5em;
+.principal-blog-contato-email{
+    width: 40em;
+    height: 3em;
 }
 
-.secao-paragrafo {
-    font-family: 'Chivo', sans-serif;
-    font-size: 1em;
-    font-weight: 500;
+.principal-blog-contato-mensagem{
+    width: 40em;
+    height: 15em;
 }
 
 .rodape {
