@@ -9,7 +9,7 @@
     <title>Vacininhas</title>
 </head>
 <body>
-    <header class="cabecalho">
+    <!-- <header class="cabecalho"> -->
         <div class="cabecalho-imagem">
             <svg class="cabecalho-imagem-icone" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006032" class="bi bi-search" viewBox="0 0 16 16">
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -20,40 +20,57 @@
             </svg>
         </div>
 
-        <nav class="cabecalho-menu">
-            <ul class="cabecalho-menu-navegacao">
-                <li><a class="cabecalho-menu-navegacao-item" href="./index.html">Ínicio</a></li>
-                <li><a class="cabecalho-menu-navegacao-item" href="./html/sobre.html">Sobre</a></li>
-                <li><a class="cabecalho-menu-navegacao-item-dp" href="./html/vacinas.html">Vacinas</a>
-                    <ul>
-                        <li><a href="#bcg">BCG</a></li>
-                        <li><a href="#hepatiteb">Hepatite B</a></li>
-                        <li><a href="#vip">VIP</a></li>
-                        <li><a href="#vop">VOP</a></li>
-                        <li><a href="#rotavirus">Rotavírus</a></li>
-                        <li><a href="#penta">Penta</a></li>
-                        <li><a href="#pvc10">PCV 10</a></li>
-                        <li><a href="#meningocócicac">Meningocócica C</a></li>
-                        <li><a href="#febreamarela">Febre Amarela</a></li>
-                        <li><a href="#scr">SCR</a></li>
-                        <li><a href="#scrv">SCRV</a></li>
-                        <li><a href="#ha">HA</a></li>
-                        <li><a href="dtp">DTP</a></li>
-                        <li><a href="#dt"></a>DT</li>
-                        <li><a href="#hpv">HPV</a></li>
-                        <li><a href="#ppv23">PPV 23</a></li>
-                        <li><a href="#varicela">Varicela</a></li>
-                        <li><a href="#influenza">Influenza</a></li>
-                        <li><a href="#covi19">Covid-19</a></li>
-                    </ul>
-                </li>
-                <li><a class="cabecalho-menu-navegacao-item" href="./html/carteirinha.html">Carteirinha</a></li>
-                <li><a class="cabecalho-menu-navegacao-item" href="./html/duvidas.html">Dúvidas</a></li>
-                <li><a class="cabecalho-menu-navegacao-item" href="./html/referencias.html">Referências</a></li>
-                <li><a class="cabecalho-menu-navegacao-item" href="./html/blog.html">Blog</a></li>
-                <li><a class="cabecalho-menu-navegacao-item" href="./html/contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Ínicio</a>
+            </li>
+            <li>
+                <a href="./html/sobre.html">Sobre</a>
+            </li>
+            <li class="dropdown">
+                <a href="./html/vacinas.html">Vacinas</a>
+
+                <div class="dropdown-menu">
+                    <a href="#bcg">BCG</a>
+                        <a href="#hepatiteb">Hepatite B</a>
+                        <a href="#vip">VIP</a>
+                        <a href="#vop">VOP</a>
+                        <a href="#rotavirus">Rotavírus</a>
+                        <a href="#penta">Penta</a>
+                        <a href="#pvc10">PCV 10</a>
+                        <a href="#meningocócicac">Meningocócica C</a>
+                        <a href="#febreamarela">Febre Amarela</a>
+                        <a href="#scr">SCR</a>
+                        <a href="#scrv">SCRV</a>
+                        <a href="#ha">HA</a>
+                        <a href="dtp">DTP</a>
+                        <a href="#dt">DT</a>
+                        <a href="#hpv">HPV</a>
+                        <a href="#ppv23">PPV 23</a>
+                        <a href="#varicela">Varicela</a>
+                        <a href="#influenza">Influenza</a>
+                        <a href="#covi19">Covid-19</a>
+                </div>
+                    
+            </li>
+            <li>
+                <a href="./html/carteirinha.html">Carteirinha</a>
+            </li>
+            <li>
+                <a href="./html/duvidas.html">Dúvidas</a>
+            </li>
+            <li>
+                <a href="./html/referencias.html">Referências</a>
+            </li>
+            <li>
+                <a href="./html/blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="./html/contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
         
     </header>
 
