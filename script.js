@@ -5,12 +5,18 @@ function calcularIdade(e) {
   
     let anos = dataAtual.getUTCFullYear() - dataNascimento.getUTCFullYear();
     let meses = dataAtual.getUTCMonth() - dataNascimento.getUTCMonth();
+    if (dataAtual.getUTCMonth() > dataNascimento.getUTCMonth()) {
+      meses = dataAtual.getUTCMonth() - dataNascimento.getUTCMonth();
+    } else {
+      meses = 12 - (dataNascimento.getUTCMonth() - dataAtual.getUTCMonth());
+      anos--;
+    }
     // if (meses < 0 || (meses === 0 && dataAtual.getUTCDate() < dataNascimento.getUTCDate())) {
     // anos--;
     // meses += 12; 
   // }
   let dias = dataAtual.getUTCDate() - dataNascimento.getUTCDate();
-  if (dias < 0) {
+  if (dias < 0) { 
     meses--;
     dias += new Date(Date.UTC(dataAtual.getUTCFullYear(), dataAtual.getUTCMonth(), 0)).getUTCDate();
   }
@@ -38,11 +44,14 @@ function calcularIdade(e) {
 function  criarCheckbox (dose, vacina){
     let dosesHtml= []
     if (dose== 0){
-        return `<p class="card-p">não tem dose de reforço</p>`
+      let paragrafo = document.createElement('p')
+      paragrafo.innerHTML = 'não tem dose de reforço'
+      paragrafo.classList.add('card-p')
+        return paragrafo
     } else {
         for(let i = 1; i <= dose; i++){
             dosesHtml.push(`<label>
-            <input onclick="funcaoTeste(vacina)" class="card-check" type="checkbox">
+            <input onclick="funcaoTeste(${vacina})" class="card-check" type="checkbox">
             ${i}º dose
             </label>`)
         }
