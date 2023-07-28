@@ -2,9 +2,9 @@
 <img  src="./img/logocompleto.png" alt="Logo Projeto Vacininhas">
 </h1>
 
-<h4 align="center"> 
+<!-- <h4 align="center"> 
 	🚧 EM CONSTRUÇÃO... 🚧
-</h4>
+</h4> -->
 
 ## Contexto
 
@@ -58,7 +58,7 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
 <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div
 
-## Implementações
+### Implementações
 
 - [x] Cadastro carteirinha personalizada
 - [x] Doses a partir da idade cadastrada
@@ -69,7 +69,7 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
 - [ ] Blog
 - [ ] Responsividade
 
-## Site 
+### Site 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0c1cb05a-f7c9-400a-9b17-a1718e963045/deploy-status)](https://app.netlify.com/sites/vacininhas/deploys)
 
