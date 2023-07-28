@@ -1,6 +1,6 @@
-<h1 align="center">
+<h2 align="center">
 <img  src="./img/logocompleto.png" alt="Logo Projeto Vacininhas">
-</h1>
+</h2>
 
 <!-- <h4 align="center"> 
 	🚧 EM CONSTRUÇÃO... 🚧
@@ -58,7 +58,7 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
 <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div
 
-### Implementações
+## Implementações
 
 - [x] Cadastro carteirinha personalizada
 - [x] Doses a partir da idade cadastrada
@@ -69,15 +69,15 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
 - [ ] Blog
 - [ ] Responsividade
 
-### Site 
+## Site 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0c1cb05a-f7c9-400a-9b17-a1718e963045/deploy-status)](https://app.netlify.com/sites/vacininhas/deploys)
 
-### Desafio e Aprendizado
+## Desafio e Aprendizado
 
 O maior desafio do projeto foi trabalhar as funções com datas, solucionei transformando dias em meses e meses em anos quando necessário. 
 
-### Autor
+## Autor
 
 Oiê, eu sou a Beatriz Cristina! Tenho 24 anos, mãe do pequeno Léo, formada em Design de Interiores e cursei metade de Arquitetura e Urbanismo. Estou em transição de carreira para a área de Desenvolvimento Web. 
 Vivenciando o dia a dia da gravidez e da maternidade, percebi que a oferta da Caderneta da Criança do SUS não é suficiente para a demanda dos postos de saúde. Também presenciei o receio de manter o esquema vacinal em dia por falta de informação e fake news sobre a temática. 
