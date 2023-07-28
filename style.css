@@ -273,10 +273,6 @@ a{
     text-align: justify;
 }
 
-.principal-vacinas-secao-descricao {
-    
-}
-
 .principal-vacinas-secao-descricao-parágrafo {
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
@@ -289,6 +285,90 @@ a{
     display: flex;
     flex-direction: column;
     
+}
+
+.principal-carteirinha-formulario {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-carteirinha-formulario-imagem-carteira {
+    width: 15em;
+    padding: 0em 2em 0em 0em;
+}
+
+.principal-carteirinha-formulario-cadastro {
+    gap: 1em;
+}
+
+.principal-carteirinha-formulario-cadastro-digitar {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #006032;
+}
+
+.principal-carteirinha-formulario-cadastro-digitar-input {
+    border: 2px solid #006032;
+}
+
+.principal-carteirinha-formulario-cadastro-botao {
+    background-color: #7ed957;
+    width: 6em;
+    height: 2em;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #006032;
+}
+
+.principal-carteirinha-formulario-cadastro-botao:hover{
+    background-color: #006032;
+    color: black;
+}
+
+.principal-carteirinha-resultado {
+    margin: 0;
+    border-top: 0.5px solid #006032;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+}
+
+
+.principal-carteirinha-formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-carteirinha-resultado {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: center;
+    padding: 1em;
+}
+
+.principal-carteirinha-titulo {
+    margin-top: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: center;
 }
 
 
@@ -350,91 +430,6 @@ a{
     width: 10em;
 }
 
-.principal-carteirinha-formulario {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.principal-carteirinha-formulario-cadastro {
-    gap: 1em;
-}
-
-.principal-carteirinha-formulario-cadastro-digitar {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.2em;
-    color: #006032;
-}
-
-.principal-carteirinha-formulario-cadastro-digitar-input {
-    border: 2px solid #006032;
-}
-
-.principal-carteirinha-formulario-cadastro-botao {
-    background-color: #7ed957;
-    width: 6em;
-    height: 2em;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0.2em;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 400;
-    font-size: 1.2em;
-    color: #006032;
-}
-
-.principal-carteirinha-formulario-cadastro-botao:hover{
-    background-color: #006032;
-    color: black;
-}
-
-.principal-carteirinha-formulario-imagem-carteira {
-    width: 15em;
-    padding: 0em 2em 0em 0em;
-}
-
-.principal-carteirinha-formulario-cadastro {
-    display: flex;
-    flex-direction: column;
-}
-
-.principal-carteirinha-resultado {
-    display: flex;
-    justify-content: center;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    color: #006032;
-    margin-bottom: 1em;
-}
-
-
-
-.principal-carteirinha-titulo {
-    margin-top: 1em;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #006032;
-    text-align: center;
-}
-
-.principal-carteirinha-resultado {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #006032;
-    text-align: center;
-}
-
 .principal-duvidas{
     background-color: #d9d9d9;
     padding: 2em 4em;
@@ -469,14 +464,7 @@ a{
 
 
 
-.principal-carteirinha-resultado {
-    margin: 0;
-    border-top: 0.5px solid #006032;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #006032;
-}
+
 
 .principal-blog{
     border-top: 0.5px solid #006032;
@@ -568,6 +556,7 @@ a{
     grid-gap: 2rem;
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 2em;
 }
 
 .card {
