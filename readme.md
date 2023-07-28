@@ -56,8 +56,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autor
 
+    Oiê, eu sou a Beatriz Cristina! Tenho 24 anos, mãe do pequeno Léo, formada em Design de Interiores e cursei metade de Arquitetura e Urbanismo. Estou em transição de carreira para a área de Desenvolvimento Web. 
+    Vivenciando o dia a dia da gravidez e da maternidade, percebi que a oferta da Caderneta da Criança do SUS não é suficiente para a demanda dos postos de saúde. Também presenciei o receio de manter o esquema vacinal em dia por falta de informação e fake news sobre a temática. 
+    Por isso desenvolvi um site para concientização sobre a vacinação infantil e acesso a carteirinha personalizada contendo o mapa vacinal adequado para a idade cadastrada.
+
 <div align="center"style="display: inline_block"><br> 
-<a href="https://instagram.com/beatrizcristina.dev" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
 <a href = "mailto:beatrizcristina.dev@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/beatriz-c-606838134/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px" target="_blank"></a> 
  </div>
