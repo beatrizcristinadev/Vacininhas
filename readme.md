@@ -2,26 +2,9 @@
 <img  src="./img/logocompleto.png" alt="Logo Projeto Vacininhas">
 </h1>
 
-# Vacininhas na Web
-
 <h4 align="center"> 
 	🚧 Em construção... 🚧
 </h4>
-
-### Autor
-
-<h1 align="center"><img  src="../vacininhas/img/perfil202301.jpg" alt="Foto Autora Beatriz"></h1>
-
-    Oiê, eu sou a Beatriz Cristina! Tenho 24 anos, mãe do pequeno Léo, formada em Design de Interiores e cursei metade de Arquitetura e Urbanismo. Estou em transição de carreira para a área de Desenvolvimento Web. 
-    Vivenciando o dia a dia da gravidez e da maternidade, percebi que a oferta da Caderneta da Criança do SUS não é suficiente para a demanda dos postos de saúde. Também presenciei o receio de manter o esquema vacinal em dia por falta de informação e fake news sobre a temática. 
-    Por isso desenvolvi um site para concientização sobre a vacinação infantil e acesso a carteirinha personalizada contendo o mapa vacinal adequado para a idade cadastrada.
-
-<div align="center"style="display: inline_block"><br> 
-<a href = "mailto:beatrizcristina.dev@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/beatriz-c-606838134/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px" target="_blank"></a> 
-</div>
-
-### Projeto
 
 ## Contexto
 
@@ -61,6 +44,12 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
 
 * Footer
 
+## Outros componentes:
+
+* Section
+
+* Form
+
 ## Tecnologias Utilizadas
 
 <div align="center" style="display: inline_block"><br>
@@ -68,30 +57,6 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div
-
-| Ferramenta | Descrição |
-
-| `ReactJS` | Framework web |
-
-| `Vite` | Gerador de projeto de front-end |
-
-| `npm` | Gerenciador de pacotes |
-
-| `Firebase` | Ferramenta realtime database para gravar as mensagens de contato |
-
-| `Module CSS` | Ferramenta para ter mais produtividade ao estilizar a aplicação |
-
-| `Phosphor` | Dependência com ícones super legais |
-
-| `React icons` | Outra dependência com ícones legais |
-
-| `React router dom` | Dependência para criar rotas no reactjs |
-
-| `React Bootstrap` | Biblioteca que oferece componentes Bootstrap construído em React |
-
-| `Vercel` | Hospedagem para a aplicação, fiz o deploy integrado com o github |
-
-| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento |
 
 ## Implementações
 
@@ -108,8 +73,21 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0c1cb05a-f7c9-400a-9b17-a1718e963045/deploy-status)](https://app.netlify.com/sites/vacininhas/deploys)
 
-### Desafios e Aprendizados
+### Desafio e Aprendizado
 
-### Finalização
+O maior desafio do projeto foi trabalhar as funções com datas, solucionei transformando dias em meses e meses em anos quando necessário. 
+
+### Agradecimentos
+
+### Autor
+
+    Oiê, eu sou a Beatriz Cristina! Tenho 24 anos, mãe do pequeno Léo, formada em Design de Interiores e cursei metade de Arquitetura e Urbanismo. Estou em transição de carreira para a área de Desenvolvimento Web. 
+    Vivenciando o dia a dia da gravidez e da maternidade, percebi que a oferta da Caderneta da Criança do SUS não é suficiente para a demanda dos postos de saúde. Também presenciei o receio de manter o esquema vacinal em dia por falta de informação e fake news sobre a temática. 
+    Por isso desenvolvi um site para concientização sobre a vacinação infantil e acesso a carteirinha personalizada contendo o mapa vacinal adequado para a idade cadastrada.
+
+<div align="center"style="display: inline_block"><br> 
+<a href = "mailto:beatrizcristina.dev@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/beatriz-c-606838134/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px" target="_blank"></a> 
+</div>
 
 
