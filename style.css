@@ -8,10 +8,15 @@
     text-decoration: none;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.cabecalho-imagem {
+    margin: 0 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-imagem-logo {
+    width: 18em;
 }
 
 ul{
@@ -42,9 +47,7 @@ nav li a:hover{
 .dropdown-menu{
     background-color: white;
     position: absolute;
-    /* border: 0.5px solid #006032; */
     display: none;
-
 }
 
 .dropdown-menu a{
@@ -60,20 +63,13 @@ nav li a:hover{
     display: block;
 }
 
-body {
-    font-size: 1rem;
+a{
+    color: #006032;
 }
 
-.cabecalho-imagem {
-    margin: 0 3em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cabecalho-imagem-logo {
-    width: 18em;
-}
+/* a:hover{
+    color: black;
+} */
 
 .principal {
     border-top: 0.5px solid #006032;
@@ -85,11 +81,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0em 5em;
+    padding: 0em 10em;
 }
 
 .principal-acao-texto {
-    padding: 5em;
+    /* padding: 5em; */
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -118,12 +114,18 @@ body {
     border-radius: 0.2em;
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #006032;
+    cursor: pointer;
     
 }
 
-.principal-acao-texto-botao:hover {
+.principal-acao-texto-botao:hover  {
+    background-color: #006032;
+    color: black;
+}
+
+.principal-acao-texto-botao:hover a {
     background-color: #006032;
     color: black;
 }
@@ -138,6 +140,18 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    gap: 1em;
+    padding: 0em 12em;
+}
+
+.secaos {
+    margin: 0em 3em 3em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 1em;
+    padding: 0em 7em;
 }
 .secao-titulo {
     margin: 0;
@@ -161,9 +175,25 @@ body {
 
 .secao-paragrafo {
     font-family: 'Chivo', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 500;
+    text-align: center;
 }
+
+.secao-paragrafos {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.secao-paragrafos {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: justify;
+}
+
 .principal-sobre {
     border-top: 0.5px solid #006032;
 }
