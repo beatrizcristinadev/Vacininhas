@@ -42,7 +42,7 @@ nav li a:hover{
 .dropdown-menu{
     background-color: white;
     position: absolute;
-    border: 0.5px solid #006032;
+    /* border: 0.5px solid #006032; */
     display: none;
 
 }
@@ -53,6 +53,7 @@ nav li a:hover{
     font-weight: 700;
     font-size: 1em;
     color: #006032;
+    border: 0.5px solid #006032;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -178,24 +179,31 @@ body {
     border-top: 0.5px solid #006032;
     display: flex;
     flex-direction: column;
+    
 }
 
 
 
-.principal-referencias {
-    padding: 2em;
+.principal-referencias{
+    background-color: #d9d9d9;
     border-top: 0.5px solid #006032;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 1em;
-    list-style-type: none;
-    text-decoration: none;
+    gap: 5em;
+    padding: 2em;
 }
 
-.principal-referencias-botao {
+.principal-referencias-botao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.principal-referencias-botao-todos {
     background-color: #7ed957;
-    width: 12em;
+    width: 10em;
     height: 2em;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -206,7 +214,12 @@ body {
     color: #006032;
 }
 
-.principal-referencias-botao:hover {
+.principal-referencias-imagem{
+    width: 20em;
+    /* padding: 2em; */
+}
+
+.principal-referencias-botao-todos:hover {
     background-color: #006032;
     color: black;
 }
@@ -360,6 +373,7 @@ body {
 }
 
 .principal-duvidas{
+    background-color: #d9d9d9;
     padding: 2em 4em;
     border-top: 0.5px solid #006032;
     display: flex;
@@ -495,8 +509,6 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 .carteirinhaContainer {
     display: grid;
