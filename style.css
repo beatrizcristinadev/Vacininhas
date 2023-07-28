@@ -67,10 +67,6 @@ a{
     color: #006032;
 }
 
-/* a:hover{
-    color: black;
-} */
-
 .principal {
     border-top: 0.5px solid #006032;
 }
@@ -421,7 +417,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 5em;
-    padding: 2em;
+    padding: 3.4em;
 }
 
 .principal-referencias-botao{
@@ -432,23 +428,29 @@ a{
 
 .principal-referencias-botao-todos {
     background-color: #7ed957;
-    width: 10em;
+    width: 12em;
     height: 2em;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0.2em;
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #006032;
+
 }
 
 .principal-referencias-imagem{
-    width: 20em;
-    /* padding: 2em; */
+    width: 15em;
+    
 }
 
 .principal-referencias-botao-todos:hover {
+    background-color: #006032;
+    color: black;
+}
+
+.principal-referencias-botao-todos:hover a {
     background-color: #006032;
     color: black;
 }
