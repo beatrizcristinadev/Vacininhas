@@ -47,7 +47,7 @@ function  criarCheckbox (dose, vacina){
       let paragrafo = document.createElement('p')
       paragrafo.innerHTML = 'não tem dose de reforço'
       paragrafo.classList.add('card-p')
-        return paragrafo
+        return "não tem dose de reforço"
     } else {
         for(let i = 1; i <= dose; i++){
             dosesHtml.push(`<label>
@@ -64,8 +64,9 @@ function funcaoTeste(vacina){
   let numeroDoses = vacina.idadeRecomendada.length
   let dosesMarcadas = 0 
   for(var i in document.dosesVacinas.childNodes){
-        if(document.dosesVacinas.childNodes[i].type == "checkbox" && document.dosesVacinas.childNodes[i].checked == true) dosesMarcadas ++;
-        if (i == lastElementChild && numeroDoses == dosesMarcadas)
+    console.log(i)
+        if(document.dosesVacinas.childNodes[i].type == "checkbox" && document.dosesVacinas.childNodes[i].checked == true) dosesMarcadas++;
+        if (i == document.dosesVacinas.lastElementChild && numeroDoses == dosesMarcadas)
         alert("oie")
   } 
 }
@@ -100,7 +101,6 @@ function funcaoTeste(vacina){
             } 
             return converterHtml(vacina, doses)
           } );
-          console.log(vacinasHtml)
           const vacinasContainer = document.getElementById("tabela");
           vacinasContainer.innerHTML = vacinasHtml.join("");
     })
