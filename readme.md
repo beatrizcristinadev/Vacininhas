@@ -69,6 +69,30 @@ A iniciativa busca enfrentar essa preocupante diminuição na taxa de vacinaçã
 - [ ] Blog
 - [ ] Responsividade
 
+## Como rodar o projeto localmente
+
+Siga os passos a seguir:
+
+<table>
+  <thead>
+    <th>Passo	</th>
+    <th>Comando</th>
+  </thead>
+    <tbody>
+    <tr>
+      <td>Faça o fork do projeto</td>
+	    <td>botão de forkar</td>
+    </tr>
+      <tr>
+      <td>Faça o clone do projeto</td>
+	    <td>git clone</td>
+    </tr>
+	 <tr>
+      <td>Instale as dependências após acessar a pasta projeto</td>
+	    <td>npm i</td>
+    </tr>
+</table>
+
 ## Site 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0c1cb05a-f7c9-400a-9b17-a1718e963045/deploy-status)](https://app.netlify.com/sites/vacininhas/deploys)
