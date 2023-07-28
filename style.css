@@ -153,6 +153,7 @@ a{
     gap: 1em;
     padding: 0em 7em;
 }
+
 .secao-titulo {
     margin: 0;
     padding-top: 1em;
@@ -196,7 +197,54 @@ a{
 
 .principal-sobre {
     border-top: 0.5px solid #006032;
+    background-color: #d9d9d9;
 }
+.principal-sobre-projeto {
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0em 9.5em;
+}
+
+.principal-sobre-projeto-imagem {
+    margin-top: 2em;
+    height: 10em;
+}
+
+.principal-sobre-projeto-titulo {
+    margin: 0em 0em 1em 0em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #006032;
+    text-align: justify;
+}
+
+.principal-sobre-projeto-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.principal-sobre-projeto-texto-parágrafo {
+    margin: 0.5em;
+    text-align: justify;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.principal-sobre-projeto-texto-parágrafos {
+    margin: 0.5em 0.5em 1.5em 0.5em;
+    text-align: justify;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
 
 .principal-vacinas {
     border-top: 0.5px solid #006032;
@@ -262,14 +310,6 @@ a{
 .principal-blog-imagem{
     width: 13em;
 }
-.principal-sobre-acao {
-    background-color: #d9d9d9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0em 5em;
-}
 
 .principal-vacinas-secao {
     margin: 1.5em;
@@ -288,13 +328,7 @@ a{
     width: 10em;
 }
 
-.principal-sobre-acao-texto {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-}
 
 .principal-vacinas-secao-descricao-parágrafo {
     font-family: 'Chivo', sans-serif;
@@ -365,15 +399,6 @@ a{
     margin-bottom: 1em;
 }
 
-.principal-sobre-acao-titulo {
-    margin: 1em 0em;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #006032;
-    text-align: justify;
-}
-
 .principal-vacinas-secao-titulo {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
@@ -438,18 +463,7 @@ a{
     padding: 0;
 }
 
-.principal-sobre-acao-texto-parágrafo {
-    margin: 0.5em;
-    text-align: justify;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-}
 
-.principal-sobre-acao-texto-imagem {
-    margin-top: 2em;
-    height: 10em;
-}
 
 .principal-carteirinha-resultado {
     margin: 0;
