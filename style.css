@@ -371,24 +371,29 @@ a{
     text-align: center;
 }
 
+.principal-duvidas{
+    background-color: #d9d9d9;
+    padding: 2em 10em;
+    border-top: 0.5px solid #006032;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10em;
+
+}
 .principal-duvidas-imagem {
     width: 10em;
 }
 
-.principal-duvidas{
-    background-color: #d9d9d9;
-    padding: 2em 4em;
-    border-top: 0.5px solid #006032;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 25em;
-
+.principal-duvidas-imagem-procura{
+    width: 15em;
+    margin: 0 auto;
 }
 
-.principal-duvidas-imagem-procura{
-    width: 30em;
+.principal-duvidas-pergunta{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
 
 .principal-duvidas-pergunta-secao{
@@ -398,13 +403,13 @@ a{
 
 .principal-duvidas-pergunta-secao-pergunta{
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #006032;
 }
 
 .principal-duvidas-pergunta-secao-resposta{
     font-family: 'Chivo', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 
