@@ -464,16 +464,6 @@ a{
     width: 13em;
 }
 
-
-
-
-
-
-
-
-
-
-
 .principal-blog{
     border-top: 0.5px solid #006032;
     display: flex;
@@ -491,32 +481,63 @@ a{
     text-align: justify;
 }
 
+.principal-blog{
+    display: flex;
+    padding: 2em;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
 .principal-blog-imagem{
     width: 15em;
+    margin: 0 1em 0 0;
 }
 
 .principal-blog-contato{
     font-family: 'Chivo', sans-serif;
     display: flex;
+    flex-direction: row;
     flex-direction: column;
     gap: 0.5em;
 }
 
-.principal-blog-contato-nome{
+.principal-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    border-top: 0.5px solid #006032;
+    padding: 2em;
+}
+.principal-contato-imagem{
+    width: 15em;
+    margin: 3em;
+}
+
+.principal-contato-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.principal-contato-titulo{
+
+}
+
+.principal-contato-nome{
     width: 40em;
     height: 3em;
 }
 
-.principal-blog-contato-email{
+.principal-contato-email{
     width: 40em;
     height: 3em;
 }
 
-.principal-blog-contato-mensagem{
+.principal-contato-mensagem{
     width: 40em;
     height: 15em;
 }
-
 .rodape {
     background-color: #006032;
     padding: 0.6em;
