@@ -21,3 +21,19 @@ Tabela de conteúdos
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
+
+<h4 align="center"> 
+	🚧 Em construção... 🚧
+</h4>
+
+### Features
+
+- [x] Cadastro carteirinha personalizada
+- [ ] Reforço a partir da idade cadastrada
+- [ ] Aviso próxima vacina a ser tomada
+- [ ] Acesso
+- [ ] Procura
+
+### Demonstração da aplicação
+
+
