@@ -372,17 +372,15 @@ a{
     padding: 2em 10em;
     border-top: 0.5px solid #006032;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 10em;
+    align-items: center;
+    gap: 5em;
 
-}
-.principal-duvidas-imagem {
-    width: 10em;
 }
 
 .principal-duvidas-imagem-procura{
-    width: 15em;
+    width: 25em;
     margin: 0 auto;
 }
 
