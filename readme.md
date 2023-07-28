@@ -29,11 +29,17 @@ Tabela de conteúdos
 ### Features
 
 - [x] Cadastro carteirinha personalizada
+- [x] Doses a partir da idade cadastrada
 - [ ] Reforço a partir da idade cadastrada
 - [ ] Aviso próxima vacina a ser tomada
-- [ ] Acesso
-- [ ] Procura
+- [ ] Acesso carteirinha já cadastrada
+- [ ] Procura no site
+- [ ] Blog
+- [ ] Responsividade
+
 
 ### Demonstração da aplicação
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c1cb05a-f7c9-400a-9b17-a1718e963045/deploy-status)](https://app.netlify.com/sites/vacininhas/deploys)
 
 
