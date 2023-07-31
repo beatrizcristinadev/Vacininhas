@@ -213,7 +213,7 @@
         "idadeRecomendada": [6,7],
         "intervaloDosesRecomendado": [1, 1, 2],
         "intervaloDosesMinimo": [],
-        "informacaoAdicional": "Verifique qual é a vacina necessária, se a criança já tomou alguma dose é preciso ser da mesma fabricante pois existe várias e cada uma tem doses e reforços diferentes a partir da idade."
+        "informacaoAdicional": "Se a criança já tomou alguma dose é preciso ser da mesma fabricante pois existe várias vacinas e cada uma tem doses e/ou reforços diferentes."
     },
 
     {
