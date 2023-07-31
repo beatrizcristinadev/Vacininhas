@@ -202,6 +202,29 @@
         "intervaloDosesRecomendado": [],
         "intervaloDosesMinimo": [1],
         "informacaoAdicional": "A vacina varicela pode ser administrada até 6 anos, 11 meses e 29 dias. Está indicada para toda população indígena a partir dos 7 (sete) anos de idade, não vacinada contra varicela."
-    }
+    },
 
-]
+    {
+        "Vacina": "Covid-19",
+        "protecaoContra":"Cepas do vírus SARS-CoV-2",
+        "composicao": "Vetor viral não replicante",
+        "numeroDosesEsquemaBasico": 3,
+        "numeroDosesReforco": 0, 
+        "idadeRecomendada": [6],
+        "intervaloDosesRecomendado": [1, 1, 2],
+        "intervaloDosesMinimo": [],
+        "informacaoAdicional": "Verifique qual é a vacina necessária, se a criança já tomou alguma dose é preciso ser da mesma fabricante pois existe várias e cada uma tem doses e reforços diferentes a partir da idade."
+    },
+
+    {
+        "Vacina": "Influenza",
+        "protecaoContra":"Gripe",
+        "composicao": "Cepas do vírus",
+        "numeroDosesEsquemaBasico": 1,
+        "numeroDosesReforco": 0, 
+        "idadeRecomendada": [6],
+        "intervaloDosesRecomendado": [12],
+        "intervaloDosesMinimo": [],
+        "informacaoAdicional": "É necessário tomar a vacina anualmente durante as campanhas de vacinação para sempre estar imunizado"
+    }
+],

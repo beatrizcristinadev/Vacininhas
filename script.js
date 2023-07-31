@@ -1,31 +1,24 @@
 function calcularIdade(e) {
-    e.preventDefault()
-    const dataNascimento = new Date (document.getElementById("dataNascimento").value);
-    const dataAtual = new Date();
-  
-    let anos = dataAtual.getUTCFullYear() - dataNascimento.getUTCFullYear();
-    let meses = dataAtual.getUTCMonth() - dataNascimento.getUTCMonth();
-    if (dataAtual.getUTCMonth() > dataNascimento.getUTCMonth()) {
-      meses = dataAtual.getUTCMonth() - dataNascimento.getUTCMonth();
-    } else {
-      meses = 12 - (dataNascimento.getUTCMonth() - dataAtual.getUTCMonth());
-      anos--;
-    }
-    // if (meses < 0 || (meses === 0 && dataAtual.getUTCDate() < dataNascimento.getUTCDate())) {
-    // anos--;
-    // meses += 12; 
-  // }
+  e.preventDefault()
+  const dataNascimento = new Date (document.getElementById("dataNascimento").value);
+  const dataAtual = new Date();
+  let anos = dataAtual.getUTCFullYear() - dataNascimento.getUTCFullYear();
+  let meses = dataAtual.getUTCMonth() - dataNascimento.getUTCMonth();
+  if (dataAtual.getUTCMonth() > dataNascimento.getUTCMonth()) {
+    meses = dataAtual.getUTCMonth() - dataNascimento.getUTCMonth();
+  } else {
+    meses = 12 - (dataNascimento.getUTCMonth() - dataAtual.getUTCMonth());
+    anos--;
+  } 
   let dias = dataAtual.getUTCDate() - dataNascimento.getUTCDate();
   if (dias < 0) { 
     meses--;
     dias += new Date(Date.UTC(dataAtual.getUTCFullYear(), dataAtual.getUTCMonth(), 0)).getUTCDate();
   }
-  
   document.getElementById("resultado").innerHTML = `Idade: ${anos} anos, ${meses} meses , ${dias} dias`;
   if (anos >= 1) meses = meses + anos * 12
   exibirVacinasNecessarias(meses);
 }
-
   const form = document.getElementById("form")
   form.addEventListener("submit",calcularIdade)
    

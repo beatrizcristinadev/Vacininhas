@@ -2,6 +2,10 @@
 <img  src="./img/logocompleto.png" alt="Logo Projeto Vacininhas">
 </h2>
 
+Vivenciando o dia a dia da gravidez e da maternidade, percebi que a oferta da Caderneta da Criança do SUS não é suficiente para a demanda dos postos de saúde. Também presenciei o receio de manter o esquema vacinal em dia por falta de informação e notícias falsas sobre a temática.
+
+Desenvolver um site para concientização sobre a vacinação infantil e acesso a carteirinha personalizada contendo o mapa vacinal adequado a partir da idade cadastrada.
+
 <!-- <h4 align="center"> 
 	🚧 EM CONSTRUÇÃO... 🚧
 </h4> -->
@@ -86,26 +90,20 @@ Siga os passos a seguir:
       <tr>
       <td>Faça o clone do projeto</td>
 	    <td>git clone</td>
-    </tr>
-	 <tr>
-      <td>Instale as dependências após acessar a pasta projeto</td>
-	    <td>npm i</td>
-    </tr>
+    </tr>>
 </table>
 
 ## Site 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0c1cb05a-f7c9-400a-9b17-a1718e963045/deploy-status)](https://app.netlify.com/sites/vacininhas/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c1cb05a-f7c9-400a-9b17-a1718e963045/deploy-status)](https://vacininhas.netlify.app/)
 
 ## Desafio e Aprendizado
 
-O maior desafio do projeto foi trabalhar as funções com datas, solucionei transformando dias em meses e meses em anos quando necessário. 
+O maior desafio do projeto foi trabalhar as funções com datas. Solucionei transformando os dias em meses e meses em anos quando necessário.
 
 ## Autor
 
-Oiê, eu sou a Beatriz Cristina! Tenho 24 anos, mãe do pequeno Léo, formada em Design de Interiores e cursei metade de Arquitetura e Urbanismo. Estou em transição de carreira para a área de Desenvolvimento Web. 
-Vivenciando o dia a dia da gravidez e da maternidade, percebi que a oferta da Caderneta da Criança do SUS não é suficiente para a demanda dos postos de saúde. Também presenciei o receio de manter o esquema vacinal em dia por falta de informação e fake news sobre a temática. 
-Por isso desenvolvi um site para concientização sobre a vacinação infantil e acesso a carteirinha personalizada contendo o mapa vacinal adequado para a idade cadastrada.
+Oiê, me chamo Beatriz Cristina! Tenho 24 anos, sou mãe do pequeno Léo, formada em Design de Interiores. Cursei metade de Arquitetura e Urbanismo até eu querer fazer transição de carreira para Desenvolvimento Web.
 
 <div align="center"style="display: inline_block"><br> 
 <a href = "mailto:beatrizcristina.dev@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
