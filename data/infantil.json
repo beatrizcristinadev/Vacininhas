@@ -211,7 +211,7 @@
         "numeroDosesEsquemaBasico": 3,
         "numeroDosesReforco": 0, 
         "idadeRecomendada": [6,7,9],
-        "intervaloDosesRecomendado": [1, 2],
+        "intervaloDosesRecomendado": [1, 1, 2],
         "intervaloDosesMinimo": [],
         "informacaoAdicional": "Se a criança já tomou alguma dose é preciso ser da mesma fabricante pois existe várias vacinas e cada uma tem doses e/ou reforços diferentes. Pfizer baby- 6 meses a 4 anos 3 doses, Coronavac- 3 e 4 anos 2 doses, e a partir de 5 anos tem uma dose de reforço."
     },
