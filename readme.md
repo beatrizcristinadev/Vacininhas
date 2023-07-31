@@ -4,11 +4,15 @@
 
 Vivenciando o dia a dia da gravidez e da maternidade, percebi que a oferta da Caderneta da Criança do SUS não é suficiente para a demanda dos postos de saúde. Também presenciei o receio de manter o esquema vacinal em dia por falta de informação e notícias falsas sobre a temática.
 
+<<<<<<< HEAD
 Desenvolver um site para concientização sobre a vacinação infantil e acesso a carteirinha personalizada contendo o mapa vacinal adequado a partir da idade cadastrada.
 
 <!-- <h4 align="center"> 
 	🚧 EM CONSTRUÇÃO... 🚧
 </h4> -->
+=======
+Desenvolvi um site para concientização sobre a vacinação infantil e acesso a carteirinha personalizada contendo o mapa vacinal adequado a partir da idade cadastrada.
+>>>>>>> 813403d4688d990b9c93dea2b4c126b941208d12
 
 ## Contexto
 
@@ -103,11 +107,13 @@ O maior desafio do projeto foi trabalhar as funções com datas. Solucionei tran
 
 ## Autor
 
+<<<<<<< HEAD
 Oiê, me chamo Beatriz Cristina! Tenho 24 anos, sou mãe do pequeno Léo, formada em Design de Interiores. Cursei metade de Arquitetura e Urbanismo até eu querer fazer transição de carreira para Desenvolvimento Web.
+=======
+Me chamo Beatriz Cristina! Tenho 24 anos, sou mãe do pequeno Léo, apaixonada por dança e formada em Design de Interiores. Cursei metade de Arquitetura e Urbanismo até eu querer fazer transição de carreira para Desenvolvimento Web.
+>>>>>>> 813403d4688d990b9c93dea2b4c126b941208d12
 
 <div align="center"style="display: inline_block"><br> 
 <a href = "mailto:beatrizcristina.dev@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/beatriz-c-606838134/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px" target="_blank"></a> 
 </div>
-
-
