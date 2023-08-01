@@ -209,7 +209,7 @@
         "protecaoContra":"Cepas do vírus SARS-CoV-2",
         "composicao": "Vetor viral não replicante",
         "numeroDosesEsquemaBasico": 3,
-        "numeroDosesReforco": 0, 
+        "numeroDosesReforco": 1, 
         "idadeRecomendada": [6,7,9],
         "intervaloDosesRecomendado": [1, 1, 2],
         "intervaloDosesMinimo": [],
